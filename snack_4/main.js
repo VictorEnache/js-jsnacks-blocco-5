@@ -16,7 +16,7 @@ new_array.push(array_cognomi[i])
 
 
 array_nomi.forEach((item,index,array) =>{
-    new_array.push(array_nomi[index])
+    new_array.push(item)
   new_array.push(array_cognomi[index])
 })
 

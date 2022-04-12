@@ -7,9 +7,17 @@ const array_nomi = ['victor', 'ginevra', 'gianni', 'carlo' ]
 const array_cognomi = ['enache', 'giolitto', 'fioriti', 'matconi']
 const new_array = []
 
-for (let i = 0; i<array_nomi.length; i++){
+/* for (let i = 0; i<array_nomi.length; i++){
 new_array.push(array_nomi[i])
 new_array.push(array_cognomi[i])
-}
+} */
+
+
+
+
+array_nomi.forEach((item,index,array) =>{
+    new_array.push(array_nomi[index])
+  new_array.push(array_cognomi[index])
+})
 
 console.log(new_array)

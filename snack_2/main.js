@@ -75,3 +75,17 @@ const zucchine_lunghe = zucchine.filter((zucchina) => {
 
 console.log(zucchine_corte)
 console.log(zucchine_lunghe)
+
+let peso_zucchine_corte =0;
+let peso_zucchine_lunghe =0;
+
+zucchine_corte.forEach((zucchina) => {
+    peso_zucchine_corte += zucchina.peso
+})
+
+zucchine_lunghe.forEach((zucchina) => {
+    peso_zucchine_lunghe += zucchina.peso
+})
+
+console.log(peso_zucchine_corte)
+console.log(peso_zucchine_lunghe)

@@ -15,3 +15,4 @@ for (let i = parola.length - 1; i>=0; i--){
 
 console.log(parola_rovesciata)
 }
+console.log(rovescia_parole('Victor'))

@@ -4,31 +4,31 @@ Calcola quanto pesano tutte le zucchine. */
 
 const zucchine = [
     {
-        varietà:'verde',
+        varieta:'verde',
         peso:40,
         lunghezza:20,
     },
 
     {
-        varietà:'gialla',
+        varieta:'gialla',
         peso:35,
         lunghezza:16,
     },
 
     {
-        varietà:'arancione',
+        varieta:'arancione',
         peso:20,
         lunghezza:50,
     },
 
     {
-        varietà:'blu',
+        varieta:'blu',
         peso:40,
         lunghezza:18,
     },
 
     {
-        varietà:'rossa',
+        varieta:'rossa',
         peso:16,
         lunghezza:20,
     },

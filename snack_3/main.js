@@ -3,7 +3,7 @@ come argomento e la ritorni girata (es. Ciao -> oaiC)
  */
 
 
-function (parola_da_rovesciare){
+function rovescia_parole (parola_da_rovesciare){
     const parola = parola_da_rovesciare
 
 let parola_rovesciata = ''

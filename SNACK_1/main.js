@@ -32,6 +32,36 @@ const zucchine = [
         peso:16,
         lunghezza:20,
     },
+
+    {
+        varieta:'verde',
+        peso:40,
+        lunghezza:20,
+    },
+
+    {
+        varieta:'gialla',
+        peso:35,
+        lunghezza:16,
+    },
+
+    {
+        varieta:'arancione',
+        peso:20,
+        lunghezza:50,
+    },
+
+    {
+        varieta:'blu',
+        peso:40,
+        lunghezza:18,
+    },
+
+    {
+        varieta:'rossa',
+        peso:16,
+        lunghezza:20,
+    }
 ]
 
 let peso_totale_zucchine = 0;

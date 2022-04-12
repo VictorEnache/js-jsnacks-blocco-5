@@ -8,7 +8,8 @@ const array_cognomi = ['enache', 'giolitto', 'fioriti', 'matconi']
 const new_array = []
 
 for (let i = 0; i<array_nomi.length; i++){
-new_array.push(array_nomi[i] +''+ array_cognomi[i])
+new_array.push(array_nomi[i])
+new_array.push(array_cognomi[i])
 }
 
 console.log(new_array)
